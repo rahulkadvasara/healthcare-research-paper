@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <div class="sidebar">
+        <h3>Healthcare AI</h3>
+        <button type="button" onclick="clearChat()">Clear Chat</button>
+        <button type="button" onclick="logout()">Logout</button>
+    </div>
+
+    <div class="main">
+
+        <div class="header">
+            <h2>Agentic Clinical Assistant</h2>
+        </div>
+
+        <div id="chat-box" class="chat-box"></div>
+
+        <div class="input-area">
+            <input type="text" id="message" placeholder="Ask about symptoms, schedule reminders...">
+            <button type="button" class="send-btn" onclick="sendMessage()">Send</button>
+
+        </div>
+
+        <div class="upload-area">
+            <input type="file" id="reportFile">
+            <button type="button" class="upload-btn" onclick="uploadReport()">Upload</button>
+        </div>
+
+
+    </div>
+</div>
+
+<script src="../static/js/script.js"></script>
+</body>
+</html>
