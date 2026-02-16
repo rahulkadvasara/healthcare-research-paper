@@ -1,201 +1,150 @@
-2026-02-15 15:27:23,624 - INFO - 127.0.0.1 - - [15/Feb/2026 15:27:23] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 15:27:23,630 - INFO - User 1 input: Hii
-2026-02-15 15:27:23,631 - INFO - Memory fetched for user 1 | Medicines: ['Metformin']
-2026-02-15 15:27:24,534 - INFO - Detected intent: CHAT
-2026-02-15 15:27:24,534 - INFO - Routing to ChatAgent
-2026-02-15 15:27:25,491 - INFO - Response generated successfully
-2026-02-15 15:27:25,492 - INFO - 127.0.0.1 - - [15/Feb/2026 15:27:25] "POST /chat HTTP/1.1" 200 -
-2026-02-15 15:27:39,648 - INFO - 127.0.0.1 - - [15/Feb/2026 15:27:39] "POST /upload HTTP/1.1" 200 -
-2026-02-15 15:27:39,655 - INFO - 127.0.0.1 - - [15/Feb/2026 15:27:39] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 15:27:39,658 - INFO - User 1 input: Analyze this report
-2026-02-15 15:27:39,658 - INFO - Memory fetched for user 1 | Medicines: ['Metformin']
-2026-02-15 15:27:39,659 - INFO - Detected intent: REPORT
-2026-02-15 15:27:39,659 - INFO - Routing to ReportAgent
-2026-02-15 15:27:42,468 - INFO - Response generated successfully
-2026-02-15 15:27:42,468 - INFO - 127.0.0.1 - - [15/Feb/2026 15:27:42] "POST /chat HTTP/1.1" 200 -
-2026-02-15 15:30:10,443 - INFO - NumExpr defaulting to 8 threads.
-2026-02-15 15:30:10,729 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-15 15:30:10,729 - INFO - [33mPress CTRL+C to quit[0m
-2026-02-15 15:31:48,775 - INFO - 127.0.0.1 - - [15/Feb/2026 15:31:48] "OPTIONS /login HTTP/1.1" 200 -
-2026-02-15 15:31:48,991 - INFO - 127.0.0.1 - - [15/Feb/2026 15:31:48] "POST /login HTTP/1.1" 200 -
-2026-02-15 15:31:51,691 - INFO - 127.0.0.1 - - [15/Feb/2026 15:31:51] "POST /login HTTP/1.1" 200 -
-2026-02-15 15:32:05,441 - INFO - 127.0.0.1 - - [15/Feb/2026 15:32:05] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 15:32:05,445 - INFO - User 1 input: Hii
-2026-02-15 15:32:05,445 - INFO - Memory fetched for user 1 | Medicines: ['Metformin']
-2026-02-15 15:32:06,343 - INFO - Detected intent: CHAT
-2026-02-15 15:32:06,343 - INFO - Routing to ChatAgent
-2026-02-15 15:32:07,385 - INFO - Response generated successfully
-2026-02-15 15:32:07,387 - INFO - 127.0.0.1 - - [15/Feb/2026 15:32:07] "POST /chat HTTP/1.1" 200 -
-2026-02-15 15:32:14,007 - INFO - 127.0.0.1 - - [15/Feb/2026 15:32:14] "POST /upload HTTP/1.1" 200 -
-2026-02-15 15:32:14,013 - INFO - 127.0.0.1 - - [15/Feb/2026 15:32:14] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 15:32:14,017 - INFO - User 1 input: Analyze this report
-2026-02-15 15:32:14,018 - INFO - Memory fetched for user 1 | Medicines: ['Metformin']
-2026-02-15 15:32:14,018 - INFO - Detected intent: REPORT
-2026-02-15 15:32:14,018 - INFO - Routing to ReportAgent
-2026-02-15 15:32:17,614 - INFO - Response generated successfully
-2026-02-15 15:32:17,615 - INFO - 127.0.0.1 - - [15/Feb/2026 15:32:17] "POST /chat HTTP/1.1" 200 -
-2026-02-15 15:32:40,638 - INFO - 127.0.0.1 - - [15/Feb/2026 15:32:40] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 15:32:40,638 - INFO - User 1 input: Remind me to take Metformin at 08:05 PM
-2026-02-15 15:32:40,638 - INFO - Memory fetched for user 1 | Medicines: ['Metformin']
-2026-02-15 15:32:40,638 - INFO - Detected intent: REMINDER
-2026-02-15 15:32:41,517 - INFO - Drug interaction result: Risk: Low
-Summary: Metformin is a commonly used medication for diabetes management, and taking it twice is not typically associated with increased risk of adverse interactions. However, it's essential to note that taking more than the prescribed dose can increase the risk of gastrointestinal side effects.
-2026-02-15 15:32:41,536 - INFO - Reminder safely scheduled for Metformin at 08:05 PM
-2026-02-15 15:32:41,536 - INFO - Response generated successfully
-2026-02-15 15:32:41,537 - INFO - 127.0.0.1 - - [15/Feb/2026 15:32:41] "POST /chat HTTP/1.1" 200 -
-2026-02-15 15:33:04,712 - INFO - 127.0.0.1 - - [15/Feb/2026 15:33:04] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 15:33:04,716 - INFO - User 1 input: Remind me to take Warfarin at 08:05 PM
-2026-02-15 15:33:04,721 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin']
-2026-02-15 15:33:04,722 - INFO - Detected intent: REMINDER
-2026-02-15 15:33:06,302 - INFO - Drug interaction result: Risk: Moderate
-Summary: The combination of Metformin with Warfarin may increase the risk of bleeding due to the anticoagulant properties of Warfarin. Additionally, Metformin may interact with Warfarin by affecting its metabolism, leading to potential changes in INR levels.
-2026-02-15 15:33:06,303 - INFO - Moderate interaction detected, scheduling with warning.
-2026-02-15 15:33:06,323 - INFO - Response generated successfully
-2026-02-15 15:33:06,325 - INFO - 127.0.0.1 - - [15/Feb/2026 15:33:06] "POST /chat HTTP/1.1" 200 -
-2026-02-15 15:39:45,847 - INFO - 127.0.0.1 - - [15/Feb/2026 15:39:45] "OPTIONS /login HTTP/1.1" 200 -
-2026-02-15 15:39:46,264 - INFO - 127.0.0.1 - - [15/Feb/2026 15:39:46] "POST /login HTTP/1.1" 200 -
-2026-02-15 15:39:55,559 - INFO - 127.0.0.1 - - [15/Feb/2026 15:39:55] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 15:39:55,564 - INFO - User 1 input: Hii
-2026-02-15 15:39:55,566 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin']
-2026-02-15 15:39:56,458 - INFO - Detected intent: CHAT
-2026-02-15 15:39:56,459 - INFO - Routing to ChatAgent
-2026-02-15 15:39:57,333 - INFO - Response generated successfully
-2026-02-15 15:39:57,335 - INFO - 127.0.0.1 - - [15/Feb/2026 15:39:57] "POST /chat HTTP/1.1" 200 -
-2026-02-15 15:40:05,655 - INFO - 127.0.0.1 - - [15/Feb/2026 15:40:05] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 15:40:05,659 - INFO - User 1 input: Remind me to take Warfarin at 08:05 PM
-2026-02-15 15:40:05,661 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin']
-2026-02-15 15:40:05,661 - INFO - Detected intent: REMINDER
-2026-02-15 15:40:06,602 - INFO - Drug interaction result: Risk: Moderate
-Summary: The repeated use of Metformin does not pose a risk, but the concurrent use of Warfarin with Metformin may increase the risk of bleeding due to potential interactions between these medications.
-2026-02-15 15:40:06,602 - INFO - Moderate interaction detected, scheduling with warning.
-2026-02-15 15:40:06,618 - INFO - Response generated successfully
-2026-02-15 15:40:06,618 - INFO - 127.0.0.1 - - [15/Feb/2026 15:40:06] "POST /chat HTTP/1.1" 200 -
-2026-02-15 15:40:15,942 - INFO - 127.0.0.1 - - [15/Feb/2026 15:40:15] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 15:40:15,946 - INFO - User 1 input: Remind me to take Metformin at 08:05 PM
-2026-02-15 15:40:15,958 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin']
-2026-02-15 15:40:15,958 - INFO - Detected intent: REMINDER
-2026-02-15 15:40:17,003 - INFO - Drug interaction result: Risk: Moderate
-Summary: The combination of Metformin with Warfarin may increase the risk of bleeding due to the anticoagulant effect of Warfarin. Additionally, the repeated use of Metformin does not introduce a new interaction, but it does emphasize the importance of monitoring for potential interactions with other medications.
-2026-02-15 15:40:17,005 - INFO - Moderate interaction detected, scheduling with warning.
-2026-02-15 15:40:17,019 - INFO - Response generated successfully
-2026-02-15 15:40:17,019 - INFO - 127.0.0.1 - - [15/Feb/2026 15:40:17] "POST /chat HTTP/1.1" 200 -
-2026-02-15 15:40:23,213 - INFO - 127.0.0.1 - - [15/Feb/2026 15:40:23] "POST /upload HTTP/1.1" 200 -
-2026-02-15 15:40:23,218 - INFO - 127.0.0.1 - - [15/Feb/2026 15:40:23] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 15:40:23,223 - INFO - User 1 input: Analyze this report
-2026-02-15 15:40:23,226 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin']
-2026-02-15 15:40:23,226 - INFO - Detected intent: REPORT
-2026-02-15 15:40:23,227 - INFO - Routing to ReportAgent
-2026-02-15 15:40:25,952 - INFO - Response generated successfully
-2026-02-15 15:40:25,952 - INFO - 127.0.0.1 - - [15/Feb/2026 15:40:25] "POST /chat HTTP/1.1" 200 -
-2026-02-15 15:40:48,829 - INFO - 127.0.0.1 - - [15/Feb/2026 15:40:48] "OPTIONS /register HTTP/1.1" 200 -
-2026-02-15 15:40:49,053 - INFO - 127.0.0.1 - - [15/Feb/2026 15:40:49] "POST /register HTTP/1.1" 200 -
-2026-02-15 15:40:50,753 - INFO - 127.0.0.1 - - [15/Feb/2026 15:40:50] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
-2026-02-15 15:40:54,300 - INFO - 127.0.0.1 - - [15/Feb/2026 15:40:54] "OPTIONS /register HTTP/1.1" 200 -
-2026-02-15 15:40:54,517 - INFO - 127.0.0.1 - - [15/Feb/2026 15:40:54] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
-2026-02-15 15:40:57,084 - INFO - 127.0.0.1 - - [15/Feb/2026 15:40:57] "OPTIONS /login HTTP/1.1" 200 -
-2026-02-15 15:40:57,298 - INFO - 127.0.0.1 - - [15/Feb/2026 15:40:57] "POST /login HTTP/1.1" 200 -
-2026-02-15 15:41:15,438 - INFO - 127.0.0.1 - - [15/Feb/2026 15:41:15] "OPTIONS /login HTTP/1.1" 200 -
-2026-02-15 15:41:15,445 - INFO - 127.0.0.1 - - [15/Feb/2026 15:41:15] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
-2026-02-15 15:41:18,070 - INFO - 127.0.0.1 - - [15/Feb/2026 15:41:18] "OPTIONS /register HTTP/1.1" 200 -
-2026-02-15 15:41:18,540 - INFO - 127.0.0.1 - - [15/Feb/2026 15:41:18] "POST /register HTTP/1.1" 200 -
-2026-02-15 15:41:30,144 - INFO - 127.0.0.1 - - [15/Feb/2026 15:41:30] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 15:41:30,149 - INFO - User 3 input: Hii
-2026-02-15 15:41:30,159 - INFO - Memory fetched for user 3 | Medicines: []
-2026-02-15 15:41:31,237 - INFO - Detected intent: CHAT
-2026-02-15 15:41:31,238 - INFO - Routing to ChatAgent
-2026-02-15 15:41:32,178 - INFO - Response generated successfully
-2026-02-15 15:41:32,178 - INFO - 127.0.0.1 - - [15/Feb/2026 15:41:32] "POST /chat HTTP/1.1" 200 -
-2026-02-15 15:49:34,595 - INFO - 127.0.0.1 - - [15/Feb/2026 15:49:34] "OPTIONS /login HTTP/1.1" 200 -
-2026-02-15 15:49:35,234 - INFO - 127.0.0.1 - - [15/Feb/2026 15:49:35] "POST /login HTTP/1.1" 200 -
-2026-02-15 15:49:50,046 - INFO - 127.0.0.1 - - [15/Feb/2026 15:49:50] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 15:49:50,050 - INFO - User 3 input: Hii
-2026-02-15 15:49:50,050 - INFO - Memory fetched for user 3 | Medicines: []
-2026-02-15 15:49:51,401 - INFO - Detected intent: CHAT
-2026-02-15 15:49:51,401 - INFO - Routing to ChatAgent
-2026-02-15 15:49:52,641 - INFO - Response generated successfully
-2026-02-15 15:49:52,643 - INFO - 127.0.0.1 - - [15/Feb/2026 15:49:52] "POST /chat HTTP/1.1" 200 -
-2026-02-15 15:50:05,237 - INFO - 127.0.0.1 - - [15/Feb/2026 15:50:05] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 15:50:05,242 - INFO - User 3 input: Remind me to take Warfarin at 08:05 PM
-2026-02-15 15:50:05,244 - INFO - Memory fetched for user 3 | Medicines: []
-2026-02-15 15:50:05,244 - INFO - Detected intent: REMINDER
-2026-02-15 15:50:06,480 - INFO - Drug interaction result: Risk: Moderate
-Summary: Warfarin is a blood thinner that interacts with many medications, including antibiotics, antifungals, and other blood thinners, increasing the risk of bleeding. It also interacts with medications that affect liver enzymes, potentially altering warfarin levels. Monitoring is essential to prevent adverse effects.
-2026-02-15 15:50:06,480 - INFO - Moderate interaction detected, scheduling with warning.
-2026-02-15 15:50:06,504 - INFO - Response generated successfully
-2026-02-15 15:50:06,506 - INFO - 127.0.0.1 - - [15/Feb/2026 15:50:06] "POST /chat HTTP/1.1" 200 -
-2026-02-15 15:50:17,513 - INFO - 127.0.0.1 - - [15/Feb/2026 15:50:17] "POST /upload HTTP/1.1" 200 -
-2026-02-15 15:50:17,523 - INFO - 127.0.0.1 - - [15/Feb/2026 15:50:17] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 15:50:17,527 - INFO - User 3 input: Analyze this report
-2026-02-15 15:50:17,527 - INFO - Memory fetched for user 3 | Medicines: ['Warfarin']
-2026-02-15 15:50:17,527 - INFO - Detected intent: REPORT
-2026-02-15 15:50:17,527 - INFO - Routing to ReportAgent
-2026-02-15 15:50:21,761 - INFO - Response generated successfully
-2026-02-15 15:50:21,761 - INFO - 127.0.0.1 - - [15/Feb/2026 15:50:21] "POST /chat HTTP/1.1" 200 -
-2026-02-15 15:56:40,500 - INFO - 127.0.0.1 - - [15/Feb/2026 15:56:40] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 15:56:40,505 - INFO - User 3 input: Hii
-2026-02-15 15:56:40,505 - INFO - Memory fetched for user 3 | Medicines: ['Warfarin']
-2026-02-15 15:56:41,740 - INFO - Detected intent: CHAT
-2026-02-15 15:56:41,740 - INFO - Routing to ChatAgent
-2026-02-15 15:56:42,858 - INFO - Response generated successfully
-2026-02-15 15:56:42,860 - INFO - 127.0.0.1 - - [15/Feb/2026 15:56:42] "POST /chat HTTP/1.1" 200 -
-2026-02-15 15:56:54,060 - INFO - 127.0.0.1 - - [15/Feb/2026 15:56:54] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 15:56:54,064 - INFO - User 3 input: Remind me to take Warfarin at 08:05 PM
-2026-02-15 15:56:54,064 - INFO - Memory fetched for user 3 | Medicines: ['Warfarin']
-2026-02-15 15:56:54,064 - INFO - Detected intent: REMINDER
-2026-02-15 15:56:55,360 - INFO - Drug interaction result: Risk: Low
-Summary: Repeated administration of the same medication, Warfarin, does not increase the risk of adverse interactions since it is a single compound. However, ensure the correct dosage is maintained. This repetition may be due to a dosing error or a duplicate prescription.
-2026-02-15 15:56:55,376 - INFO - Reminder safely scheduled for Warfarin at 08:05 PM
-2026-02-15 15:56:55,376 - INFO - Response generated successfully
-2026-02-15 15:56:55,377 - INFO - 127.0.0.1 - - [15/Feb/2026 15:56:55] "POST /chat HTTP/1.1" 200 -
-2026-02-15 15:57:11,429 - INFO - 127.0.0.1 - - [15/Feb/2026 15:57:11] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 15:57:11,434 - INFO - User 3 input: Remind me to take Metformin at 08:05 PM
-2026-02-15 15:57:11,434 - INFO - Memory fetched for user 3 | Medicines: ['Warfarin', 'Warfarin']
-2026-02-15 15:57:11,437 - INFO - Detected intent: REMINDER
-2026-02-15 15:57:12,606 - INFO - Drug interaction result: Risk: Moderate
-Summary: The repeated administration of Warfarin may increase the risk of bleeding due to its anticoagulant properties. However, the addition of Metformin, a medication primarily used to treat diabetes, does not significantly interact with Warfarin. The primary concern remains the potential for bleeding complications.
-2026-02-15 15:57:12,606 - INFO - Moderate interaction detected, scheduling with warning.
-2026-02-15 15:57:12,622 - INFO - Response generated successfully
-2026-02-15 15:57:12,622 - INFO - 127.0.0.1 - - [15/Feb/2026 15:57:12] "POST /chat HTTP/1.1" 200 -
-2026-02-15 15:57:18,791 - INFO - 127.0.0.1 - - [15/Feb/2026 15:57:18] "POST /upload HTTP/1.1" 200 -
-2026-02-15 15:57:18,795 - INFO - 127.0.0.1 - - [15/Feb/2026 15:57:18] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 15:57:18,799 - INFO - User 3 input: Analyze this report
-2026-02-15 15:57:18,799 - INFO - Memory fetched for user 3 | Medicines: ['Warfarin', 'Warfarin', 'Metformin']
-2026-02-15 15:57:18,799 - INFO - Detected intent: REPORT
-2026-02-15 15:57:18,799 - INFO - Routing to ReportAgent
-2026-02-15 15:57:22,716 - INFO - Response generated successfully
-2026-02-15 15:57:22,716 - INFO - 127.0.0.1 - - [15/Feb/2026 15:57:22] "POST /chat HTTP/1.1" 200 -
-2026-02-15 16:02:58,948 - INFO - 127.0.0.1 - - [15/Feb/2026 16:02:58] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 16:02:58,948 - INFO - User 3 input: hii
-2026-02-15 16:02:58,954 - INFO - Memory fetched for user 3 | Medicines: ['Warfarin', 'Warfarin', 'Metformin']
-2026-02-15 16:03:01,609 - INFO - Detected intent: CHAT
-2026-02-15 16:03:01,609 - INFO - Routing to ChatAgent
-2026-02-15 16:03:03,602 - INFO - Response generated successfully
-2026-02-15 16:03:03,602 - INFO - 127.0.0.1 - - [15/Feb/2026 16:03:03] "POST /chat HTTP/1.1" 200 -
-2026-02-15 16:03:10,753 - INFO - 127.0.0.1 - - [15/Feb/2026 16:03:10] "POST /upload HTTP/1.1" 200 -
-2026-02-15 16:03:10,757 - INFO - 127.0.0.1 - - [15/Feb/2026 16:03:10] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 16:03:10,757 - INFO - User 3 input: Analyze this report
-2026-02-15 16:03:10,757 - INFO - Memory fetched for user 3 | Medicines: ['Warfarin', 'Warfarin', 'Metformin']
-2026-02-15 16:03:10,765 - INFO - Detected intent: REPORT
-2026-02-15 16:03:10,765 - INFO - Routing to ReportAgent
-2026-02-15 16:03:15,081 - INFO - Response generated successfully
-2026-02-15 16:03:15,088 - INFO - 127.0.0.1 - - [15/Feb/2026 16:03:15] "POST /chat HTTP/1.1" 200 -
-2026-02-15 16:03:28,801 - INFO - NumExpr defaulting to 8 threads.
-2026-02-15 16:03:29,811 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-15 16:03:29,811 - INFO - [33mPress CTRL+C to quit[0m
-2026-02-15 16:03:35,579 - INFO - 127.0.0.1 - - [15/Feb/2026 16:03:35] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 16:03:35,581 - INFO - User 3 input: Hii
-2026-02-15 16:03:35,585 - INFO - Memory fetched for user 3 | Medicines: ['Warfarin', 'Warfarin', 'Metformin']
-2026-02-15 16:03:37,073 - INFO - Detected intent: CHAT
-2026-02-15 16:03:37,073 - INFO - Routing to ChatAgent
-2026-02-15 16:03:38,304 - INFO - Response generated successfully
-2026-02-15 16:03:38,305 - INFO - 127.0.0.1 - - [15/Feb/2026 16:03:38] "POST /chat HTTP/1.1" 200 -
-2026-02-15 16:03:47,096 - INFO - 127.0.0.1 - - [15/Feb/2026 16:03:47] "POST /upload HTTP/1.1" 200 -
-2026-02-15 16:03:47,102 - INFO - 127.0.0.1 - - [15/Feb/2026 16:03:47] "OPTIONS /chat HTTP/1.1" 200 -
-2026-02-15 16:03:47,106 - INFO - User 3 input: Analyze this report
-2026-02-15 16:03:47,106 - INFO - Memory fetched for user 3 | Medicines: ['Warfarin', 'Warfarin', 'Metformin']
-2026-02-15 16:03:47,106 - INFO - Detected intent: REPORT
-2026-02-15 16:03:47,109 - INFO - Routing to ReportAgent
-2026-02-15 16:03:50,781 - INFO - Response generated successfully
-2026-02-15 16:03:50,781 - INFO - 127.0.0.1 - - [15/Feb/2026 16:03:50] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:33:19,595 - INFO - 127.0.0.1 - - [16/Feb/2026 21:33:19] "OPTIONS /chat HTTP/1.1" 200 -
+2026-02-16 21:33:19,601 - INFO - User 1 input: I have fever and body pain.
+2026-02-16 21:33:19,601 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin']
+2026-02-16 21:33:19,601 - INFO - Detected intent: SYMPTOM
+2026-02-16 21:33:19,603 - INFO - Routing to SymptomAgent
+2026-02-16 21:33:21,323 - INFO - Response generated successfully
+2026-02-16 21:33:21,323 - INFO - 127.0.0.1 - - [16/Feb/2026 21:33:21] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:33:25,995 - INFO - 127.0.0.1 - - [16/Feb/2026 21:33:25] "OPTIONS /chat HTTP/1.1" 200 -
+2026-02-16 21:33:25,999 - INFO - User 1 input: What are symptoms of malaria?
+2026-02-16 21:33:26,001 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin']
+2026-02-16 21:33:26,001 - INFO - Detected intent: SYMPTOM
+2026-02-16 21:33:26,001 - INFO - Routing to SymptomAgent
+2026-02-16 21:33:27,643 - INFO - Response generated successfully
+2026-02-16 21:33:27,643 - INFO - 127.0.0.1 - - [16/Feb/2026 21:33:27] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:33:31,602 - INFO - 127.0.0.1 - - [16/Feb/2026 21:33:31] "OPTIONS /chat HTTP/1.1" 200 -
+2026-02-16 21:33:31,607 - INFO - User 1 input: I feel weak and tired.
+2026-02-16 21:33:31,609 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin']
+2026-02-16 21:33:33,192 - INFO - Detected intent: SYMPTOM
+2026-02-16 21:33:33,193 - INFO - Routing to SymptomAgent
+2026-02-16 21:33:34,783 - INFO - Response generated successfully
+2026-02-16 21:33:34,786 - INFO - 127.0.0.1 - - [16/Feb/2026 21:33:34] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:33:37,603 - INFO - 127.0.0.1 - - [16/Feb/2026 21:33:37] "OPTIONS /chat HTTP/1.1" 200 -
+2026-02-16 21:33:37,605 - INFO - User 1 input: How to reduce cold naturally?
+2026-02-16 21:33:37,608 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin']
+2026-02-16 21:33:39,572 - INFO - Detected intent: SYMPTOM
+2026-02-16 21:33:39,572 - INFO - Routing to SymptomAgent
+2026-02-16 21:33:40,817 - INFO - Response generated successfully
+2026-02-16 21:33:40,817 - INFO - 127.0.0.1 - - [16/Feb/2026 21:33:40] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:33:43,034 - INFO - 127.0.0.1 - - [16/Feb/2026 21:33:43] "OPTIONS /chat HTTP/1.1" 200 -
+2026-02-16 21:33:43,039 - INFO - User 1 input: Is headache common in flu?
+2026-02-16 21:33:43,040 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin']
+2026-02-16 21:33:43,041 - INFO - Detected intent: SYMPTOM
+2026-02-16 21:33:43,041 - INFO - Routing to SymptomAgent
+2026-02-16 21:33:45,077 - INFO - Response generated successfully
+2026-02-16 21:33:45,077 - INFO - 127.0.0.1 - - [16/Feb/2026 21:33:45] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:33:48,752 - INFO - 127.0.0.1 - - [16/Feb/2026 21:33:48] "OPTIONS /chat HTTP/1.1" 200 -
+2026-02-16 21:33:48,760 - INFO - User 1 input: Set reminder for Paracetamol at 9 PM.
+2026-02-16 21:33:48,761 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin']
+2026-02-16 21:33:49,721 - INFO - Detected intent: REMINDER
+2026-02-16 21:33:50,861 - INFO - Drug interaction result: Risk: Low
+Summary: The combination of Metformin with itself is considered safe as it's a duplicate entry, and there's no known interaction between Metformin and Warfarin at therapeutic doses. However, it's essential to monitor INR levels when taking Warfarin with other medications.
+2026-02-16 21:33:50,882 - INFO - Reminder safely scheduled for Set reminder for Paracetamol at 9 PM.
+2026-02-16 21:33:50,882 - INFO - Response generated successfully
+2026-02-16 21:33:50,882 - INFO - 127.0.0.1 - - [16/Feb/2026 21:33:50] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:33:54,706 - INFO - 127.0.0.1 - - [16/Feb/2026 21:33:54] "OPTIONS /chat HTTP/1.1" 200 -
+2026-02-16 21:33:54,711 - INFO - User 1 input: Remind me to take Aspirin at 8 AM.
+2026-02-16 21:33:54,713 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin', 'Set reminder for Paracetamol']
+2026-02-16 21:33:54,713 - INFO - Detected intent: REMINDER
+2026-02-16 21:33:56,009 - INFO - Drug interaction result: Risk: Moderate
+Summary: The combination of Metformin with Warfarin increases the risk of bleeding due to the anticoagulant properties of Warfarin, which may be enhanced by Metformin. Additionally, the concurrent use of Aspirin, another antiplatelet agent, further increases this risk.
+2026-02-16 21:33:56,013 - INFO - Moderate interaction detected, scheduling with warning.
+2026-02-16 21:33:56,032 - INFO - Response generated successfully
+2026-02-16 21:33:56,037 - INFO - 127.0.0.1 - - [16/Feb/2026 21:33:56] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:34:00,078 - INFO - 127.0.0.1 - - [16/Feb/2026 21:34:00] "OPTIONS /chat HTTP/1.1" 200 -
+2026-02-16 21:34:00,081 - INFO - User 1 input: Schedule Metformin for tomorrow 7 PM.
+2026-02-16 21:34:00,081 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin', 'Set reminder for Paracetamol', 'Aspirin']
+2026-02-16 21:34:02,020 - INFO - Detected intent: REMINDER
+2026-02-16 21:34:02,020 - INFO - Response generated successfully
+2026-02-16 21:34:02,022 - INFO - 127.0.0.1 - - [16/Feb/2026 21:34:02] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:34:09,893 - INFO - 127.0.0.1 - - [16/Feb/2026 21:34:09] "OPTIONS /chat HTTP/1.1" 200 -
+2026-02-16 21:34:09,897 - INFO - User 1 input: Add Vitamin D reminder at 10 AM.
+2026-02-16 21:34:09,900 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin', 'Set reminder for Paracetamol', 'Aspirin']
+2026-02-16 21:34:10,941 - INFO - Detected intent: REMINDER
+2026-02-16 21:34:12,053 - INFO - Drug interaction result: Risk: Moderate
+Summary: The combination of Metformin with Warfarin may increase the risk of bleeding due to their synergistic effects on platelet aggregation and anticoagulation. Aspirin, another anticoagulant, further elevates this risk.
+2026-02-16 21:34:12,053 - INFO - Moderate interaction detected, scheduling with warning.
+2026-02-16 21:34:12,078 - INFO - Response generated successfully
+2026-02-16 21:34:12,078 - INFO - 127.0.0.1 - - [16/Feb/2026 21:34:12] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:34:16,043 - INFO - 127.0.0.1 - - [16/Feb/2026 21:34:16] "OPTIONS /chat HTTP/1.1" 200 -
+2026-02-16 21:34:16,045 - INFO - User 1 input: I need to take Insulin at 6 AM daily.
+2026-02-16 21:34:16,051 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin', 'Set reminder for Paracetamol', 'Aspirin', 'Add Vitamin D reminder']
+2026-02-16 21:34:16,993 - INFO - Detected intent: REMINDER
+2026-02-16 21:34:18,137 - INFO - Drug interaction result: Risk: Moderate
+Summary: The combination of Metformin and Warfarin may increase the risk of bleeding due to their synergistic effect on platelet aggregation. Additionally, the concurrent use of Aspirin further increases this risk.
+2026-02-16 21:34:18,137 - INFO - Moderate interaction detected, scheduling with warning.
+2026-02-16 21:34:18,147 - INFO - Response generated successfully
+2026-02-16 21:34:18,159 - INFO - 127.0.0.1 - - [16/Feb/2026 21:34:18] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:34:23,022 - INFO - 127.0.0.1 - - [16/Feb/2026 21:34:23] "OPTIONS /chat HTTP/1.1" 200 -
+2026-02-16 21:34:23,031 - INFO - User 1 input: Is Aspirin safe with Ibuprofen?
+2026-02-16 21:34:23,036 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin', 'Set reminder for Paracetamol', 'Aspirin', 'Add Vitamin D reminder', 'I need to take Insulin']
+2026-02-16 21:34:24,029 - INFO - Detected intent: REPORT
+2026-02-16 21:34:24,029 - INFO - Routing to ChatAgent
+2026-02-16 21:34:25,175 - INFO - Response generated successfully
+2026-02-16 21:34:25,175 - INFO - 127.0.0.1 - - [16/Feb/2026 21:34:25] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:34:27,700 - INFO - User 1 input: Check interaction between Warfarin and Clopidogrel.
+2026-02-16 21:34:27,700 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin', 'Set reminder for Paracetamol', 'Aspirin', 'Add Vitamin D reminder', 'I need to take Insulin']
+2026-02-16 21:34:28,919 - INFO - Detected intent: REPORT
+2026-02-16 21:34:28,919 - INFO - Routing to ChatAgent
+2026-02-16 21:34:30,544 - INFO - Response generated successfully
+2026-02-16 21:34:30,551 - INFO - 127.0.0.1 - - [16/Feb/2026 21:34:30] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:34:33,290 - INFO - 127.0.0.1 - - [16/Feb/2026 21:34:33] "OPTIONS /chat HTTP/1.1" 200 -
+2026-02-16 21:34:33,292 - INFO - User 1 input: Does Metformin interact with Insulin?
+2026-02-16 21:34:33,298 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin', 'Set reminder for Paracetamol', 'Aspirin', 'Add Vitamin D reminder', 'I need to take Insulin']
+2026-02-16 21:34:34,400 - INFO - Detected intent: REPORT
+2026-02-16 21:34:34,400 - INFO - Routing to ChatAgent
+2026-02-16 21:34:35,621 - INFO - Response generated successfully
+2026-02-16 21:34:35,621 - INFO - 127.0.0.1 - - [16/Feb/2026 21:34:35] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:34:38,668 - INFO - 127.0.0.1 - - [16/Feb/2026 21:34:38] "OPTIONS /chat HTTP/1.1" 200 -
+2026-02-16 21:34:38,671 - INFO - User 1 input: Is Atorvastatin safe with Erythromycin?
+2026-02-16 21:34:38,671 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin', 'Set reminder for Paracetamol', 'Aspirin', 'Add Vitamin D reminder', 'I need to take Insulin']
+2026-02-16 21:34:39,791 - INFO - Detected intent: REPORT
+2026-02-16 21:34:39,793 - INFO - Routing to ChatAgent
+2026-02-16 21:34:41,800 - INFO - Response generated successfully
+2026-02-16 21:34:41,800 - INFO - 127.0.0.1 - - [16/Feb/2026 21:34:41] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:34:43,490 - INFO - User 1 input: Check drug interaction between Paracetamol and Vitamin C.
+2026-02-16 21:34:43,492 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin', 'Set reminder for Paracetamol', 'Aspirin', 'Add Vitamin D reminder', 'I need to take Insulin']
+2026-02-16 21:34:45,289 - INFO - Detected intent: REPORT
+2026-02-16 21:34:45,289 - INFO - Routing to ChatAgent
+2026-02-16 21:34:48,361 - INFO - Response generated successfully
+2026-02-16 21:34:48,361 - INFO - 127.0.0.1 - - [16/Feb/2026 21:34:48] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:34:57,696 - INFO - 127.0.0.1 - - [16/Feb/2026 21:34:57] "POST /upload HTTP/1.1" 200 -
+2026-02-16 21:34:57,699 - INFO - 127.0.0.1 - - [16/Feb/2026 21:34:57] "OPTIONS /chat HTTP/1.1" 200 -
+2026-02-16 21:34:57,705 - INFO - User 1 input: Analyze this report
+2026-02-16 21:34:57,705 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin', 'Set reminder for Paracetamol', 'Aspirin', 'Add Vitamin D reminder', 'I need to take Insulin']
+2026-02-16 21:34:57,705 - INFO - Detected intent: REPORT
+2026-02-16 21:34:57,705 - INFO - Routing to ReportAgent
+2026-02-16 21:35:01,255 - INFO - Response generated successfully
+2026-02-16 21:35:01,255 - INFO - 127.0.0.1 - - [16/Feb/2026 21:35:01] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:35:05,521 - INFO - 127.0.0.1 - - [16/Feb/2026 21:35:05] "POST /upload HTTP/1.1" 200 -
+2026-02-16 21:35:05,526 - INFO - 127.0.0.1 - - [16/Feb/2026 21:35:05] "OPTIONS /chat HTTP/1.1" 200 -
+2026-02-16 21:35:05,530 - INFO - User 1 input: Analyze this report
+2026-02-16 21:35:05,530 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin', 'Set reminder for Paracetamol', 'Aspirin', 'Add Vitamin D reminder', 'I need to take Insulin']
+2026-02-16 21:35:05,530 - INFO - Detected intent: REPORT
+2026-02-16 21:35:05,530 - INFO - Routing to ReportAgent
+2026-02-16 21:35:09,063 - INFO - Response generated successfully
+2026-02-16 21:35:09,063 - INFO - 127.0.0.1 - - [16/Feb/2026 21:35:09] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:35:11,224 - INFO - 127.0.0.1 - - [16/Feb/2026 21:35:11] "POST /upload HTTP/1.1" 200 -
+2026-02-16 21:35:11,224 - INFO - 127.0.0.1 - - [16/Feb/2026 21:35:11] "OPTIONS /chat HTTP/1.1" 200 -
+2026-02-16 21:35:11,234 - INFO - User 1 input: Analyze this report
+2026-02-16 21:35:11,236 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin', 'Set reminder for Paracetamol', 'Aspirin', 'Add Vitamin D reminder', 'I need to take Insulin']
+2026-02-16 21:35:11,237 - INFO - Detected intent: REPORT
+2026-02-16 21:35:11,237 - INFO - Routing to ReportAgent
+2026-02-16 21:35:14,991 - INFO - Response generated successfully
+2026-02-16 21:35:14,991 - INFO - 127.0.0.1 - - [16/Feb/2026 21:35:14] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:35:23,920 - INFO - 127.0.0.1 - - [16/Feb/2026 21:35:23] "POST /upload HTTP/1.1" 200 -
+2026-02-16 21:35:23,923 - INFO - 127.0.0.1 - - [16/Feb/2026 21:35:23] "OPTIONS /chat HTTP/1.1" 200 -
+2026-02-16 21:35:23,927 - INFO - User 1 input: Analyze this report
+2026-02-16 21:35:23,927 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin', 'Set reminder for Paracetamol', 'Aspirin', 'Add Vitamin D reminder', 'I need to take Insulin']
+2026-02-16 21:35:23,927 - INFO - Detected intent: REPORT
+2026-02-16 21:35:23,927 - INFO - Routing to ReportAgent
+2026-02-16 21:35:27,287 - INFO - Response generated successfully
+2026-02-16 21:35:27,287 - INFO - 127.0.0.1 - - [16/Feb/2026 21:35:27] "POST /chat HTTP/1.1" 200 -
+2026-02-16 21:35:29,224 - INFO - 127.0.0.1 - - [16/Feb/2026 21:35:29] "POST /upload HTTP/1.1" 200 -
+2026-02-16 21:35:29,229 - INFO - 127.0.0.1 - - [16/Feb/2026 21:35:29] "OPTIONS /chat HTTP/1.1" 200 -
+2026-02-16 21:35:29,232 - INFO - User 1 input: Analyze this report
+2026-02-16 21:35:29,232 - INFO - Memory fetched for user 1 | Medicines: ['Metformin', 'Metformin', 'Warfarin', 'Warfarin', 'Metformin', 'Set reminder for Paracetamol', 'Aspirin', 'Add Vitamin D reminder', 'I need to take Insulin']
+2026-02-16 21:35:29,232 - INFO - Detected intent: REPORT
+2026-02-16 21:35:29,232 - INFO - Routing to ReportAgent
+2026-02-16 21:35:32,799 - INFO - Response generated successfully
+2026-02-16 21:35:32,799 - INFO - 127.0.0.1 - - [16/Feb/2026 21:35:32] "POST /chat HTTP/1.1" 200 -
